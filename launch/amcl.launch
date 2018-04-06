@@ -13,9 +13,14 @@
     <param name="base_frame_id" value="robot_footprint"/>
     <param name="global_frame_id" value="map"/>
 
-    <!--<param name="max_particles" value="45"/>
-    <param name="transform_tolerance" value="0.1"/>
-    <param name="initial_pose" value="[0,0]"/>-->
+    <param name="max_particles" value="120"/>
+    <param name="transform_tolerance" value="0.4"/>
+    <param name="initial_pose" value="[0,0]"/>
+    <param name="odom_alpha1" value=".01"/>
+    <param name="odom_alpha2" value=".01"/>
+    <param name="odom_alpha3" value=".01"/>
+    <param name="odom_alpha4" value=".01"/>
+
   </node>
 
   <!-- Move base -->
