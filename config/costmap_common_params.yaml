@@ -3,7 +3,7 @@ map_type: costmap
 obstacle_range: 4
 raytrace_range: 6
 
-transform_tolerance: 0.4
+transform_tolerance: 0.6
 
 robot_radius: 0.25 
 inflation_radius: 0.05
