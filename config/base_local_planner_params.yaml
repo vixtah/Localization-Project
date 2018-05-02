@@ -1,15 +1,17 @@
 TrajectoryPlannerROS:
 
   holonomic_robot: false
-  acc_lim_x: 2
-  acc_lim_y: 2
-  acc_lim_theta: 2
+  acc_lim_x: 1
+  acc_lim_y: 1
+  acc_lim_theta: 1.5
 
   min_vel_x: 0.2
   max_vel_x: 1.0
+  min_vel_theta: -0.8
   max_vel_theta: 0.8
   sim_time: 1.6
   meter_scoring: true
-  pdist_scale: 1.5
+  pdist_scale: 0.3
+  escape_vel: -0.3
 
-  controller_frequency: 3
+  controller_frequency: 2
